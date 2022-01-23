@@ -88,11 +88,11 @@ padding-left:0;}
     
 .personal-item{
 font-size: 16px;
-line-height: 1.5;}
+line-height: 2;}
     
 .contacts-title {
 font-size: 22px;
-line-height: 1.5;}
+line-height: 2;}
     
 .contacts-item {
 font-size: 16px;
@@ -110,7 +110,7 @@ opacity: 1;}
     
 .skills-title {
 font-size: 22px;
-line-height: 1.5;}
+line-height: 2;}
           
 .skills-item {
 font-size: 16px;
@@ -131,7 +131,7 @@ font-size:18px;}
     
 .portfolio-title{
 font-size: 22px;
-line-height: 1.5;}
+line-height: 2;}
     
 .portfolio-list{
 list-style:none;
@@ -139,7 +139,7 @@ padding-left:0;}
     
 .portfolio-item{
 font-size: 16px;
-line-height: 1.5;}
+line-height: 2;}
 .portfolio-link{
 opacity:0.6;
 color: #fff;}
@@ -152,9 +152,12 @@ color: #fff;}
 .personal,
 .photo,
 .contacts,
-.skills { margin-bottom:60px;}
+.skills { margin-bottom:40px;}
     
+
+
 .portfolio,
+.Language,
 .personal,
 .contacts,
 .skills {padding-left:40px;}
