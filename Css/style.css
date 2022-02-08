@@ -11,7 +11,13 @@ h2,
 h3{
 margin-top: 0;
 margin-bottom: 0;}
-    
+
+h2{font-weight: 600;
+font-size: 24px;
+}
+
+h3{font-weight: 400;}
+
 p {
 margin-bottom: 0;}
 
@@ -33,16 +39,41 @@ margin-left:auto;
 margin-right:auto;
 box-shadow:10px 10px 20px 0px hsla (0,0%,0%,0.1);
 background-color:#ffffff;}
-    
+
+
+.right-side {
+padding-left: 80px;
+padding-right: 100px;
+padding-top: 68px;
+padding-bottom: 68px;
+width:900px;}
+        
+.left-side {
+width: 400px;
+min-height:400px;
+background-color: #FF5300;
+color: #fff;}
+
+
+.photo {
+width:370px;  }
+
+.accent {
+color: #FF5300;}
+
+
 .bio-title {
-font-size: 40px;
-line-height: 2;
-margin-bottom:20px;}
+font-size: 36px;
+line-height: 1;
+margin-bottom:10px;
+font-weight: 600;
+}
     
 .bio-occupation {
-margin-bottom:27px;
-font-size: 30px;
-line-height: 2;}
+padding-top: 20px;
+margin-bottom:10px;
+font-size: 24px;
+line-height: 1;}
     
 .bio-about,
 .bio-title ,
@@ -50,131 +81,160 @@ line-height: 2;}
 color: #000000;}
     
 .bio-about {
+padding-top: 20px;
 font-size: 16px;
-line-height: 2;}
+line-height: 1.8;}
     
 .bio,
-.projects,
 .jobs,
 .education {
-margin-bottom:60px;}
+margin-bottom:60px;
+}
+       
+.jobs-title {
+color: #000000;
+font-size: 26px;
+line-height: 1;
+margin-bottom:10px;
+}
+          
+.jobs-occupation {
+color: #000000;
+font-size: 20px;
+line-height: 1.5;
+margin-bottom:4px;
+padding-top: 20px;}
+          
+.jobs-time {
+color: #000000;
+font-size: 12px;
+line-height: 1.5;
+}
+  
+.experience-item {
+color: #000000;
+font-size: 14px;
+line-height: 1.5;
+margin-bottom:5px;
+}
     
-.right-side {
-padding-left: 80px;
-padding-right: 200px;
-padding-top: 68px;
-padding-bottom: 68px;
-width:800px;}
+.education{
+margin-bottom: 20px;}
+
+.education-title {
+font-size:26px;
+color:#000000;
+line-height:1;
+padding-top: 0px;
+margin-bottom: 40px;
+}
     
-.left-side {
-width: 400px;
-min-height:400px;
-background-color: #FF5300;
-color: #fff;}
+              
+.education-degree {
+font-size:18px;
+color:#000000;
+line-height:1.5;
+margin-bottom:0px;
+}
+            
+.education-time {
+font-size:12px;
+color:#000000;
+line-height:1.5;
+margin-bottom:20px;}
+              
+.skills1{
+padding-left:40px;
+padding-top: 40px;}   
+
+.skills{
+margin-bottom:0px;
+padding-top: 20px;}
     
-    
-.photo {
-width:370px;  }
-      
-    
-.personal-title{
-padding-top: 40px;
-font-size: 22px;
-line-height: 1.5;}
-    
-.personal-list{
+
+.skills2{padding-left:40px;
+    margin-bottom:0px;
+    padding-top: 40px;}
+
+.skills{
+padding-left:40px;}
+
+    .skills3{padding-left:40px;
+        margin-bottom:0px;
+        padding-top: 40px;}
+
+.skills-title{
+font-size: 20px;
+line-height: 1;
+padding-top: 0px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+
+.skills-list {
 list-style:none;
-padding-left:0;}
-    
+padding-left:0;
+padding-top: 0px;}
+          
+.skills-item {
+font-size: 14px;
+line-height: 2;
+list-style:none;
+padding-right: 10px;
+padding-top: 0px;
+}
+          
+
+        
 .personal-item{
-font-size: 16px;
+font-size: 14px;
 line-height: 2;}
-    
-.contacts-title {
-font-size: 22px;
-line-height: 2;}
-    
+        
+        
 .contacts-item {
 font-size: 16px;
 line-height: 2;}
-    
+        
 .contacts-list{
 list-style:none;
-padding-left:0;}
-      
+padding-left:0;
+padding-top: 0px;}
+          
 .contacts-link {
 opacity:0.6;}
-    
+        
 .contacts-link:hover {
 opacity: 1;}
-    
-.skills-title {
-font-size: 22px;
-line-height: 2;}
-          
-.skills-item {
-font-size: 16px;
-line-height: 2;
-list-style:none;}
-          
-.skills-list {
-padding-left:0;}
+
     
 .skills-link{
 padding-left: 0px;}
           
-.skills-item::before {
+.skills-item::before{
 content:'\2022';
 color:#fdfdfd;
-margin-right:8px;
-font-size:18px;} 
+margin-right:10px;
+font-size:14px;} 
     
-.portfolio-title{
-font-size: 22px;
-line-height: 2;}
     
 .portfolio-list{
 list-style:none;
-padding-left:0;}
-    
+padding-left:0;
+padding-top: 0px;}
+
+
 .portfolio-item{
-font-size: 16px;
+font-size: 14px;
 line-height: 2;}
+
 .portfolio-link{
 opacity:0.6;
 color: #fff;}
+
 .portfolio-link:hover{
 opacity: 1;
 color: #fff;}
-    
-    
-.portfolio,
-.personal,
-.photo,
-.contacts,
-.skills { margin-bottom:40px;}
-    
-
-
-.portfolio,
-.Language,
-.personal,
-.contacts,
-.skills {padding-left:40px;}
-    
-.projects-title {
-font-size:22px;
-line-height:1.091;
-color:#000000;
-margin-bottom:14px;}
-    
-.projects-link {
-font-size:14px;
-line-height:1.714;
-color:#000000;}
-    
-.projects-link:hover{
-color: #FF5300}
+       
     
 .contacts-link {
 color: #ffffff;
@@ -182,55 +242,3 @@ text-decoration: none;}
     
 .contacts-link:hover{
 color: #ffffff;}
-    
-.jobs-title {
-color: #000000;
-font-size: 22px;
-line-height: 1;
-margin-bottom:26px;
-padding-top: 40px;}
-      
-.jobs-occupation {
-color: #000000;
-font-size: 20px;
-line-height: 1.5;
-margin-bottom:16px;}
-      
-.jobs-time {
-color: #000000;
-font-size: 14px;
-line-height: 1.5;
-margin-bottom:18px;}
-      
-.experience-item {
-color: #000000;
-font-size: 16px;
-line-height: 1.5;
-margin-bottom:10px;}
-      
-.accent {
-color: #FF5300;}
-    
-.experience{
-margin-bottom:28px;}
-    
-.education-title {
-font-size:22px;
-color:#000000;
-line-height:1;
-margin-bottom:26px;}
-          
-.education-degree {
-font-size:18px;
-color:#000000;
-line-height:1.5;
-margin-bottom:16px;}
-        
-.education-time {
-font-size:14px;
-color:#000000;
-line-height:1.5;
-margin-bottom:18px;}
-          
-.accent {
-color:#FF5300;}
